@@ -40,7 +40,7 @@ urlpatterns = patterns('',
     (r'^scheduler/', include('rapidsms.contrib.scheduler.urls')),
     (r'^polls/', include('poll.urls')),
     
-) + router_urls + ureport_urls + contact_urls + tracking_urls + generic_urls+ ussd_urls+class_urls
+) + router_urls + ureport_urls + contact_urls + tracking_urls + generic_urls + ussd_urls + class_urls
 
 
 if settings.DEBUG:
