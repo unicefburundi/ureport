@@ -8,3 +8,7 @@ build
 dist
 ureport.egg-info
 .idea
+*.log
+*.pot
+*.pyc
+local_settings.py
